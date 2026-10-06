@@ -28,7 +28,7 @@ ul.nav a:hover {
 }
 
 .grid-item {
-    background-color: lightskyblue;
+    background-color: rgb(223, 240, 240);
     text-align: center;
 }
 
@@ -89,4 +89,61 @@ ul.nav a:hover {
   background-color: red;
   color: white;
   text-align: center;
+}
+
+.footerA {
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(156, 212, 232);
+  color: white;
+  text-align: center;
+}
+
+.main-imgA {
+    grid-row: 2;
+    grid-column: 1 / span 3;
+    max-height: 200;
+    max-width: 200;
+}
+
+.image1A {
+    max-height: 400px;
+    max-width: 500;
+}
+
+.main1A {
+    grid-row: 4;
+    grid-column: 1 / span 2;
+    padding: 30px;
+    background-color: rgb(223, 240, 240);
+}
+
+.main2A {
+    grid-row: 5;
+    grid-column: 1 / span 2;
+    padding: 30px;
+    background-color: rgb(223, 240, 240);
+}
+
+.sidecontentA {
+    grid-column: 3;
+    grid-row: 3 / span 5;
+    padding: 30px;
+    background-color: rgb(223, 240, 240);
+}
+
+.supportsection1A {
+    grid-column: 1;
+    grid-row: 6 / span 2;
+    padding: 30px;
+    background-color: rgb(223, 240, 240);
+}
+
+.supportsection2A {
+    grid-column: 2;
+    grid-row: 6 / span 2;
+    padding: 30px;
+    background-color: rgb (223, 240, 240);
 }
